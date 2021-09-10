@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3253830B26EB710400E00E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253830A26EB710400E00E94 /* AppDelegate.swift */; };
+		3253830D26EB710400E00E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253830C26EB710400E00E94 /* ContentView.swift */; };
+		3253830F26EB710400E00E94 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 3253830E26EB710400E00E94 /* Experience.rcproject */; };
+		3253831126EB710A00E00E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3253831026EB710A00E00E94 /* Assets.xcassets */; };
+		3253831426EB710A00E00E94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3253831326EB710A00E00E94 /* Preview Assets.xcassets */; };
+		3253831F26EB710A00E00E94 /* ARtopoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253831E26EB710A00E00E94 /* ARtopoTests.swift */; };
+		3253832A26EB710A00E00E94 /* ARtopoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253832926EB710A00E00E94 /* ARtopoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3253831B26EB710A00E00E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 325382FF26EB710400E00E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3253830626EB710400E00E94;
+			remoteInfo = ARtopo;
+		};
+		3253832626EB710A00E00E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 325382FF26EB710400E00E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3253830626EB710400E00E94;
+			remoteInfo = ARtopo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3253830726EB710400E00E94 /* ARtopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARtopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3253830A26EB710400E00E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3253830C26EB710400E00E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3253830E26EB710400E00E94 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		3253831026EB710A00E00E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3253831326EB710A00E00E94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3253831526EB710A00E00E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3253831A26EB710A00E00E94 /* ARtopoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARtopoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3253831E26EB710A00E00E94 /* ARtopoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARtopoTests.swift; sourceTree = "<group>"; };
+		3253832026EB710A00E00E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3253832526EB710A00E00E94 /* ARtopoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARtopoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3253832926EB710A00E00E94 /* ARtopoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARtopoUITests.swift; sourceTree = "<group>"; };
+		3253832B26EB710A00E00E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3253830426EB710400E00E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253831726EB710A00E00E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253832226EB710A00E00E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325382FE26EB710400E00E94 = {
+			isa = PBXGroup;
+			children = (
+				3253830926EB710400E00E94 /* ARtopo */,
+				3253831D26EB710A00E00E94 /* ARtopoTests */,
+				3253832826EB710A00E00E94 /* ARtopoUITests */,
+				3253830826EB710400E00E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3253830826EB710400E00E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3253830726EB710400E00E94 /* ARtopo.app */,
+				3253831A26EB710A00E00E94 /* ARtopoTests.xctest */,
+				3253832526EB710A00E00E94 /* ARtopoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3253830926EB710400E00E94 /* ARtopo */ = {
+			isa = PBXGroup;
+			children = (
+				3253830A26EB710400E00E94 /* AppDelegate.swift */,
+				3253830C26EB710400E00E94 /* ContentView.swift */,
+				3253830E26EB710400E00E94 /* Experience.rcproject */,
+				3253831026EB710A00E00E94 /* Assets.xcassets */,
+				3253831526EB710A00E00E94 /* Info.plist */,
+				3253831226EB710A00E00E94 /* Preview Content */,
+			);
+			path = ARtopo;
+			sourceTree = "<group>";
+		};
+		3253831226EB710A00E00E94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3253831326EB710A00E00E94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3253831D26EB710A00E00E94 /* ARtopoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3253831E26EB710A00E00E94 /* ARtopoTests.swift */,
+				3253832026EB710A00E00E94 /* Info.plist */,
+			);
+			path = ARtopoTests;
+			sourceTree = "<group>";
+		};
+		3253832826EB710A00E00E94 /* ARtopoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3253832926EB710A00E00E94 /* ARtopoUITests.swift */,
+				3253832B26EB710A00E00E94 /* Info.plist */,
+			);
+			path = ARtopoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3253830626EB710400E00E94 /* ARtopo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3253832E26EB710A00E00E94 /* Build configuration list for PBXNativeTarget "ARtopo" */;
+			buildPhases = (
+				3253830326EB710400E00E94 /* Sources */,
+				3253830426EB710400E00E94 /* Frameworks */,
+				3253830526EB710400E00E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARtopo;
+			productName = ARtopo;
+			productReference = 3253830726EB710400E00E94 /* ARtopo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3253831926EB710A00E00E94 /* ARtopoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3253833126EB710A00E00E94 /* Build configuration list for PBXNativeTarget "ARtopoTests" */;
+			buildPhases = (
+				3253831626EB710A00E00E94 /* Sources */,
+				3253831726EB710A00E00E94 /* Frameworks */,
+				3253831826EB710A00E00E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3253831C26EB710A00E00E94 /* PBXTargetDependency */,
+			);
+			name = ARtopoTests;
+			productName = ARtopoTests;
+			productReference = 3253831A26EB710A00E00E94 /* ARtopoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3253832426EB710A00E00E94 /* ARtopoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3253833426EB710A00E00E94 /* Build configuration list for PBXNativeTarget "ARtopoUITests" */;
+			buildPhases = (
+				3253832126EB710A00E00E94 /* Sources */,
+				3253832226EB710A00E00E94 /* Frameworks */,
+				3253832326EB710A00E00E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3253832726EB710A00E00E94 /* PBXTargetDependency */,
+			);
+			name = ARtopoUITests;
+			productName = ARtopoUITests;
+			productReference = 3253832526EB710A00E00E94 /* ARtopoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325382FF26EB710400E00E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3253830626EB710400E00E94 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3253831926EB710A00E00E94 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3253830626EB710400E00E94;
+					};
+					3253832426EB710A00E00E94 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3253830626EB710400E00E94;
+					};
+				};
+			};
+			buildConfigurationList = 3253830226EB710400E00E94 /* Build configuration list for PBXProject "ARtopo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325382FE26EB710400E00E94;
+			productRefGroup = 3253830826EB710400E00E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3253830626EB710400E00E94 /* ARtopo */,
+				3253831926EB710A00E00E94 /* ARtopoTests */,
+				3253832426EB710A00E00E94 /* ARtopoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3253830526EB710400E00E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3253831426EB710A00E00E94 /* Preview Assets.xcassets in Resources */,
+				3253831126EB710A00E00E94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253831826EB710A00E00E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253832326EB710A00E00E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3253830326EB710400E00E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3253830D26EB710400E00E94 /* ContentView.swift in Sources */,
+				3253830B26EB710400E00E94 /* AppDelegate.swift in Sources */,
+				3253830F26EB710400E00E94 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253831626EB710A00E00E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3253831F26EB710A00E00E94 /* ARtopoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253832126EB710A00E00E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3253832A26EB710A00E00E94 /* ARtopoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3253831C26EB710A00E00E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3253830626EB710400E00E94 /* ARtopo */;
+			targetProxy = 3253831B26EB710A00E00E94 /* PBXContainerItemProxy */;
+		};
+		3253832726EB710A00E00E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3253830626EB710400E00E94 /* ARtopo */;
+			targetProxy = 3253832626EB710A00E00E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3253832C26EB710A00E00E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3253832D26EB710A00E00E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3253832F26EB710A00E00E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ARtopo/Preview Content\"";
+				DEVELOPMENT_TEAM = BJRK59RQ22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ARtopo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rennrennrenn.ARtopo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3253833026EB710A00E00E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ARtopo/Preview Content\"";
+				DEVELOPMENT_TEAM = BJRK59RQ22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ARtopo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rennrennrenn.ARtopo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3253833226EB710A00E00E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJRK59RQ22;
+				INFOPLIST_FILE = ARtopoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rennrennrenn.ARtopoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARtopo.app/ARtopo";
+			};
+			name = Debug;
+		};
+		3253833326EB710A00E00E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJRK59RQ22;
+				INFOPLIST_FILE = ARtopoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rennrennrenn.ARtopoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARtopo.app/ARtopo";
+			};
+			name = Release;
+		};
+		3253833526EB710A00E00E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJRK59RQ22;
+				INFOPLIST_FILE = ARtopoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rennrennrenn.ARtopoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARtopo;
+			};
+			name = Debug;
+		};
+		3253833626EB710A00E00E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJRK59RQ22;
+				INFOPLIST_FILE = ARtopoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rennrennrenn.ARtopoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARtopo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3253830226EB710400E00E94 /* Build configuration list for PBXProject "ARtopo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3253832C26EB710A00E00E94 /* Debug */,
+				3253832D26EB710A00E00E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3253832E26EB710A00E00E94 /* Build configuration list for PBXNativeTarget "ARtopo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3253832F26EB710A00E00E94 /* Debug */,
+				3253833026EB710A00E00E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3253833126EB710A00E00E94 /* Build configuration list for PBXNativeTarget "ARtopoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3253833226EB710A00E00E94 /* Debug */,
+				3253833326EB710A00E00E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3253833426EB710A00E00E94 /* Build configuration list for PBXNativeTarget "ARtopoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3253833526EB710A00E00E94 /* Debug */,
+				3253833626EB710A00E00E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 325382FF26EB710400E00E94 /* Project object */;
+}
